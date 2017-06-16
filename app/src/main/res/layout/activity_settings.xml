@@ -9,4 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.kooknluke.skidice2.Settings">
 
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/difficultyBar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:max="5"
+        android:indeterminate="false" />
 </RelativeLayout>
